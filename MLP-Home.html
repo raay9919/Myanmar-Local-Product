@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="with=device-width, initial-
+        scale=1.0">
+        <title>Myanmar-Local-Products</title>
+        <link rel="stylesheet" href="MLP-Home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7823c06798.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <section class="header">
+            <nav>
+                <a href="index.html"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">BRANDS</a></li>
+                        <li><a href="">PRODUCTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Myanmar Local Products</h1>
+                <p> Astonishing hand made products produced from a wonderful historic south east asian country called Myanmar. 
+                    <br>You can see variety of unique products that are available on our website
+                </p>
+                <a href="#YALAD" class="hero-btn">Discover More</a>
+            </div>
+        </section>         
+
+<!----------course--------->
+
+<section class="course">
+    <h1>Our Product Brands</h1>
+    <p>These are the product brands that we offer </p>
+
+    <div class="row">
+        <div class="course-col" id="YALAD">
+            <h3>YALAD</h3>
+            <p>Best Quality <b>Authentic Handmade</b> products such as <b>kitchen gowns and aprons</b> <br> CLICK TO SEE MORE!
+            </p>
+        </div>
+        <div class="course-col" id="APHYAY">
+            <h3>APHYAY</h3>
+            <p>
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Blush U</h3>
+            <p>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-------campus-------->
+
+
+<!-----JavaScript for Toggle Menu------>
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+</body>
+</html>
