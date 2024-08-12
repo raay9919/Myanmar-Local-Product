@@ -20,9 +20,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav img{
-    width: 150px;
-}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -96,8 +93,8 @@ nav .fa{
         display: block;
     }
     .nav-links{
-        position: absolute;
-        background: #f44336;
+        position: fixed;
+        background: #5e4228;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -120,7 +117,7 @@ nav .fa{
 
 /*-----course-----*/
 
-.course{
+.product{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -143,17 +140,34 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.course-col{
+.product-col{
     color: rgb(29, 27, 62);
     flex-basis: 31%;
-   background-color: #fee6dd84;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-.course-col p{
+#YALAD{
+    color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(YALAD\ PHOTO.jpg);;
+    background-position: center;
+    background-size: cover;
+}
+#APHYAY{
+    color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Image.jpg);;
+    background-position: center;
+    background-size: cover;
+}
+#BLUSH-U{
+    color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(BLUSH\ U\ PHOTO.jpg);;
+    background-position: center;
+    background-size: cover;
+}
+.product-col p{
     font-size: 12px;
     font-weight: 600;
 }
@@ -164,13 +178,53 @@ h3{
     font-weight: 700;
     margin: 10px 0;
 }
-.course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.505);
+.product-col:hover{
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.806);
     cursor: pointer;
-    background-color: #84bbd4;
 }
 @media(max-width: 700px){
     .row{
         flex-direction: column;
     }
+}
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Firework\ LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+@media(max-width: 700px){
+    .contact h1{
+        font-size: 24px;
+    }
+}
+
+/*-------footer------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #704016;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
 }
